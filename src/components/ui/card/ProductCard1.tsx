@@ -29,7 +29,7 @@ export default function ProductCard1({
     const totalPrice = (price * count) * selectedBtn
 
     return (
-        <div className="pe-5 mb-5 lg:mb-0">
+        <div className="lg:pe-5 mb-5 lg:mb-0">
             <div className="relative overflow-hidden">
                 <img src={productImage} className="w-full" />
 
