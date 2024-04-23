@@ -3,6 +3,12 @@ body {
   background-color: #FCF6F6;
 }
 
+/* Mobile menu */
+.show-mobile-menu {
+  left: 0px;
+  transition: all 0.5s ease-in-out;
+}
+
 /* Slider */
 .carousel .control-dots .dot {
   opacity: 1;
