@@ -1,0 +1,32 @@
+body {
+  font-family: Poppins;
+  background-color: #FCF6F6;
+}
+
+/* Slider */
+.carousel .control-dots .dot {
+  opacity: 1;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.carousel .control-dots .dot.selected,
+.carousel .control-dots .dot:hover {
+  background-color: #F33838;
+  border-color: #F33838;
+}
+
+.display-items-image {
+  padding-right: 0px;
+  transition: all 0.5s ease-in-out;
+}
+
+.layer:hover .display-items-image {
+  padding-right: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.comparison-icon:hover>.comparison-text {
+  right: 20px;
+  transition: all 0.5s ease-in-out;
+}
