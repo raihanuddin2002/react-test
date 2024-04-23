@@ -15,7 +15,7 @@ export default function MobileMenu() {
 
             {/* Mobile Menu */}
             <div
-                className='fixed h-screen w-full bg-black top-0 left-[-1000px] z-50 py-12'
+                className='fixed h-screen w-full bg-[#1A1A1B] top-0 left-[-1000px] z-50 py-12'
                 ref={mobileMenuRef}
             >
                 <ul className='menu-items gap-0 block text-white'>
